@@ -16,7 +16,7 @@ The homepage provides an entry point for users to access the main content of the
 ![Admin Page](ReadMePics/addPage.png)
 
 The admin page is accessible only to logged-in administrators. From this page, admins can:
-- Update and manage the website’s resources (e.g., upload new tutorials, update slides).
+- Update and manage the website’s resources (e.g., upload new books).
 
 
 ## 3. Main Page Flowchart (Levels)
@@ -25,8 +25,6 @@ The admin page is accessible only to logged-in administrators. From this page, a
 
 The main page contains the different **levels** for the computer science program. Each level includes:
 - **Books**: Textbooks or reference materials for the course.
-- **Slides**: Lecture slides for each topic.
-- **Helpful Resources**: Additional tutorials, videos, or links to external resources.
 
  ## 4. Level Resources Page Flowchart
 
