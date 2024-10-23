@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="/css/mainCss.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="/js/script.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <!-- Sidebar with levels -->
+    <div class="sidebar">
+        <h4 ></h4>
+        <ul id="level-list">
+            <li><a href="#" data-level="first">first</a></li>
+            <li><a href="#" data-level="second">second</a></li>
+            <li><a href="#" data-level="third">third</a></li>
+            <li><a href="#" data-level="fourth">fourth</a></li>
+            <li><a href="#" data-level="fifth">fifth</a></li>
+            <li><a href="#" data-level="sixth">sixth</a></li>
+            <li><a href="#" data-level="seventh">seventh</a></li>
+        </ul>
+        <button class="suggestion-btn">Have a suggestion?</button>
+    </div>
+    
+    <!-- Main content section -->
+    <div class="main-content">
+        <h2>Computer Science Courses</h2>
+        
+        <!-- Section to display courses dynamically -->
+        <div id="content-display" class="content-display">
+            <% if (courses && courses.length > 0) { %>
+                <% courses.forEach(course => { %>
+                    <div class="course">
+
+                                <h3><a href="<%= course.bookUrl %>"><%= course.courseName %></a></h3> <!-- Display course name -->
+                          <!-- <p>Course Book: <a href="<%= course.bookUrl %>">Book</a></p>-->
+                    </div>
+                    <br>
+                <% }); %>
+            <% } else { %>
+                <p>No courses available.</p>
+            <% } %>
+        </div>                
+    </div>
+</div>
+
+</body>
+</html>
