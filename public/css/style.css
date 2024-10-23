@@ -1,0 +1,130 @@
+body{
+    background-color: #F1F1F1;
+}
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+#header1  {
+    background-color: #43536C ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+#footer1 {
+    background-color: #43536C ;
+    color: white;
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+    text-align: center; 
+    padding: 10px 0;
+}
+
+
+#img1 {
+    width: 60px;
+    height: 60px;
+}
+#img2 {
+    width: 50px;
+    height: 50px;
+    position: relative; 
+}
+
+#img3 {
+    width: 200px;
+    height: 200px;
+    display: block; 
+    margin: 0 auto 15px; 
+}
+
+#div1 {
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center; 
+}
+
+#a3 {
+    background-color: #43536C;
+    text-decoration: none;
+    width: 25%;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    border: 1px solid #6d7e98;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+#a3:hover{
+    text-decoration: underline;
+    background-color: #5A6A88;
+}
+#pa1{
+    cursor: pointer;
+    color: #F1F1F1;
+    font-family: "Lobster", sans-serif;;
+}
+#pa1:hover{
+    color: #D9D9D9;
+}
+
+
+#footer1 a {
+    color: white ; 
+}
+#footer1 p {
+    color: white ; 
+}
+footer{
+    background-color: #43536C;
+    color: white;
+
+}
+#footer1 li a:hover {
+    color:  #D9D9D9 ;
+}
+
+.login-container {
+    position: relative; 
+    display: inline-block; 
+}
+
+.tooltip {
+    visibility: hidden;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 110%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space: nowrap; 
+}
+
+.login-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+#pa1{
+    text-decoration: none;
+}
+form{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin-top: 55px;
+    font-family: "Lobster", sans-serif;
+    
+}
