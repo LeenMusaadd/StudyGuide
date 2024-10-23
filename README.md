@@ -39,7 +39,7 @@ Each level's resources page displays:
 # Setup
 
  In order to obtain the resources:
-1.<git clone https://github.com/LeenMusaadd/StudyGuide/tree/master>` is the first step in cloning the repository.
+1.<git clone https://github.com/LeenMusaadd/StudyGuide>` is the first step in cloning the repository.
 2. To view all of the course resources on the homepage, open the `HomePage.html` file in your browser.
 
 # Technology Used
