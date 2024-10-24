@@ -64,6 +64,8 @@ These are the website's main objectives:
 
 bootstrap :https://getbootstrap.com/docs/5.2/examples/footers/
 Nodjs: https://nodejs.org/en/docs/
+understanding how to create a proper backend for the project: https://www.youtube.com/watch?v=BDo1lgaZuII&t=6086s 
+understanding and implementing REST Api:https://www.youtube.com/watch?v=_7UQPve99r4
 
 # Team Members
 
